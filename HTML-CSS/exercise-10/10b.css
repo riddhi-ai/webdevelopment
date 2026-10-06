@@ -1,0 +1,63 @@
+.profile {
+    width: 1000px;
+    height: 200px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+/* Horizontal blocks */
+.profile-picture {
+    display: inline-block;
+    width: 180px;
+    vertical-align: middle;
+}
+
+.profile-info {
+    display: inline-block;
+    width: 550px;
+    vertical-align: middle;
+}
+
+.button-section {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Profile image */
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Text */
+.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 35px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.popular {
+    font-size: 35px;
+    color: gray;
+    margin-top: 10px;
+}
+
+
+/* Button */
+button {
+    background-color: #4285e8;
+    color: white;
+    border: none;
+    padding: 20px 35px;
+    font-size: 30px;
+    border-radius: 12px;
+}
